@@ -1,10 +1,10 @@
 
 $(document).ready(function () {
-    
-        $( Window ).scroll(function () { 
-            $('p').hide();
+    $('#animation1').hide();
+    $( Window ).scroll(function () { 
+        $('p').fadeIn();
 
-        });
+    });
         
 
   });

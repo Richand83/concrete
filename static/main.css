@@ -7,17 +7,32 @@
 }
 .carousel-inner img {
     width: 100%;
-    /* height: 100%; */
   }
 #dimension {
     padding: 0;
-    
+   scroll-behavior: smooth;
 }
 #slider {
     min-width: 50%;
     
 }
-@keyframes example1 {
+.about img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    /* margin: 10px; */
+}
+.about div {
+    padding: 5px;
+    margin: 10px;
+    height: 90vh;;
+}
+.about div p {
+    max-width: 200px;
+    /* margin: 0; */
+    text-align: center;
+}
+/* @keyframes example1 {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
@@ -27,4 +42,4 @@
 #animation1 {
     animation-name: example1;
     animation-duration: 4s;
-}
+} */
