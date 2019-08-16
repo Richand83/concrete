@@ -1,1 +1,10 @@
-AOS.init();
+
+$(document).ready(function () {
+    
+        $( Window ).scroll(function () { 
+            $('p').hide();
+
+        });
+        
+
+  });
